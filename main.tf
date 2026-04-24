@@ -7,6 +7,6 @@ resource "aws_s3_bucket" "academy-bucket" {
 
   tags = {
     academy     = "terraform202601"
-    Environment = "Dev"
+    Environment = "latest"
   }
 }
